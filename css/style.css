@@ -1,0 +1,274 @@
+
+/*Common Strats*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	font-size:16px ;
+	font-weight:400 ;
+	color:#999999 ;
+}
+/*Common Ends*/
+/*Header Starts*/
+header{
+	padding: 20px 0px;
+	
+	}
+.wrapper{
+	overflow: hidden;
+	margin: 0px auto;
+	width: 75%;
+	}
+.logo{
+	width: 8%;
+	float: left;
+
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	margin: 0;
+       float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+}
+.menu ul li a{
+    margin: 0px 15px;
+    padding: 3px 2px;
+    display: inline-block;
+    font-size: 15px;
+    color: #15a4fa;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom:1px solid transparent ;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	color:#2d3950 ;
+	border-bottom:1px solid #2d3950;
+}
+/*Header Ends*/
+.banner{
+	background-image:url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;    
+}   
+.banner_content
+{
+	width: 55%;
+	margin: 200px auto;
+	text-align: center;
+}
+.banner_content h1{
+	text-align: center;
+	font-size: 100px;
+	fonr-weight: bold;
+	color: #ffffff;
+	border-bottom: 2px solid #15a4fa;
+	margin: 0px;
+}
+.banner_content p{
+	font-size: 20px;
+	color: #ffffff;;
+}
+.callbutton {
+	margin: 50px 0;
+	padding: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: white;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	cursor: pointer;
+
+}
+
+/* Banner Ends*/
+
+
+/*Simple Section Starts*/
+.simple{
+	background-color: #f6f9f9;
+	text-align: center;
+}
+.simpe_content{
+	width: 80%;
+	margin: 80px auto 100px;
+}
+.simpe_content h1{
+    margin-bottom: 0px;
+	font-size: 40px;
+	color: #2d3950;
+}
+.simpe_content p{
+	color: #999999;
+	line-height: 22px;
+
+}
+/*Simple Section Ends*/
+
+/*Feature Section Starts*/
+.features{}
+.feature_content{
+	text-align: center;
+	overflow: hidden;
+}
+.feature_one{
+	width: 30%;
+	text-align: center;
+	margin: 56px 0px;
+	color: #2d3950;    
+	float: left;
+}
+.feature_one img{}
+.feature_one h2 {
+	font-size: 22px;
+}
+.feature_one p {
+	font-size: 15px;
+	line-height: 22px;
+}
+.featpadding{
+	padding: 0px 5%;
+}
+/*Feature Section Ends*/
+/*Showcase Section Starts*/
+
+.showcase{
+	background-color: #f6f9f9;
+}
+.showcase_full{}
+.showcase_content{
+	padding: 50px 0px 30px;
+	text-align: center;
+}
+.showcase_content h1{
+	margin: 0;
+}
+.showcase_content p{
+	margin-top:11px;
+
+}
+.showcase_single{
+	width: 31%;
+	padding: 1%;
+	float: left;
+}
+.showcase_single img{
+	width: 100%;
+}
+
+.hoveff{
+	position: relative;
+	}
+.hoveff img{
+	width: 100%;
+	height: auto;
+}
+.o_2{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .4s;
+}
+.o_2:hover{
+	opacity: .7;
+	background-color: #23a0ef;
+	padding: 50px 0px 30px;
+}
+.o_2 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 40px;
+	text-align: center;
+}
+/*Showcase Section End*/
+/*Contact Section Starts*/
+	.contact{
+		background-image:url(../images/contact.jpg);
+	}
+	.message{
+	width: 50%;
+	margin: 23px auto 85px;
+	text-align: center;
+	font-size: 15px;
+}
+	.message h1{
+		font-size: 40px;
+		color: #ffffff;
+}
+.message p{
+	overflow: hidden;
+	font-size: 15px;
+	color:#999999
+}
+ .info {
+	 	background-color: transparent;
+	    border: 1px solid #99a0a9;
+	 	height: 60px;
+	 	width: 98%;
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 16px;
+}
+.mesgtext{
+	height: 100px;
+}
+ .check{
+ 	background-color: transparent;
+	width: 36%;
+	margin-top: 14px;
+	float: left;
+	 	
+	 }
+	 .messbutt{
+	 	float: right;
+	 	padding: 6px 39px;
+	 	margin: 0;
+	 }
+	 /*Contact Section End*/
+	 /*Footer Start*/
+	 footer{}
+	 .footercontect{
+	 	overflow: hidden;
+	 }
+	 .copyright{
+	 	width: 30%;
+	 	padding: 9px 0;
+	 	float: left;
+	 }
+	 .footlink{
+	 	text-decoration: none;
+	 	color: #999999;
+	 }
+	 .social{
+	 	width: 23%;
+	 	float: right;
+	 }
+	 .social ul{}
+	 .social li{
+	 	list-style: none;
+	 	display: inline-block;
+	 }
+	 .social li a{
+	 	text-decoration: none;
+	 	margin-left: 5px;
+	 }
+ /*Footer End*/
+	
