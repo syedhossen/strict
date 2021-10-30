@@ -1,4 +1,5 @@
 
+
 /*Common Strats*/
 body{
 	margin: 0px;
@@ -20,7 +21,7 @@ header{
 	width: 75%;
 	}
 .logo{
-	width: 8%;
+	width: 10%;
 	float: left;
 
 }
@@ -151,7 +152,7 @@ header{
 }
 .showcase_full{}
 .showcase_content{
-	padding: 50px 0px 30px;
+
 	text-align: center;
 }
 .showcase_content h1{
@@ -162,42 +163,53 @@ header{
 
 }
 .showcase_single{
+	position: relative;
 	width: 31%;
-	padding: 1%;
+	margin: 1%;
 	float: left;
 }
 .showcase_single img{
 	width: 100%;
-}
-
-.hoveff{
-	position: relative;
-	}
-.hoveff img{
-	width: 100%;
 	height: auto;
 }
-.o_2{
+
+.showicon{
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	opacity: 0;
-	transition: .4s;
+	transition:.4s;
+
+	
 }
-.o_2:hover{
-	opacity: .7;
+.icons{
+	
+	overflow: hidden;
+}
+.showicon:hover{
+	opacity: .8;
 	background-color: #23a0ef;
-	padding: 50px 0px 30px;
+	
 }
-.o_2 img{
+.showicon .zoom{
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	left: 35%;
+	transform: translate(-50%,-35%);
 	width: 40px;
-	text-align: center;
+	border: 1px solid white;
+	
+}
+.showicon .link{
+	position: absolute;
+	top: 53%;
+	left: 53%;
+	transform: translate(-53%,-53%);
+	width: 40px;
+	border: 1px solid white;
+	
 }
 /*Showcase Section End*/
 /*Contact Section Starts*/
@@ -221,7 +233,7 @@ header{
 }
  .info {
 	 	background-color: transparent;
-	    	border: 1px solid #99a0a9;
+	    border: 1px solid #99a0a9;
 	 	height: 60px;
 	 	width: 98%;
 	 	font-family: 'Lato', sans-serif;
