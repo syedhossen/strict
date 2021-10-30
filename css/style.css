@@ -147,6 +147,7 @@ header{
 /*Showcase Section Starts*/
 
 .showcase{
+	padding:62px;
 	background-color: #f6f9f9;
 }
 .showcase_full{}
