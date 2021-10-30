@@ -183,6 +183,7 @@ header{
 	transition: .6s;
 }
 .image_overlay:hover{
+	background-color:#23a0ef
 	opacity:.6;
 }
 
