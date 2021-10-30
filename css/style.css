@@ -152,14 +152,13 @@ header{
 }
 .showcase_full{}
 .showcase_content{
-
 	text-align: center;
 }
 .showcase_content h1{
 	margin: 0;
 }
 .showcase_content p{
-	margin-top:11px;
+	margin-top:11px 0 30px;
 
 }
 .showcase_single{
